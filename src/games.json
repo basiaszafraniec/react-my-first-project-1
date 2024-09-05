@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "title": "Cards Against Humanity",
+      "timeOfPlay": "30-90 min",
+      "minPlayers": 4,
+      "maxPlayers": 30,
+      "difficulty": "Easy",
+      "location": "Living Room",
+      "positionOnShelf": "Top Shelf"
+    },
+    {
+      "id": 2,
+      "title": "Catan",
+      "timeOfPlay": "60-120 min",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "difficulty": "Medium",
+      "location": "Living Room",
+      "positionOnShelf": "Middle Shelf"
+    },
+    {
+      "id": 3,
+      "title": "Monopoly",
+      "timeOfPlay": "120-180 min",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "difficulty": "Medium",
+      "location": "Game Room",
+      "positionOnShelf": "Bottom Shelf"
+    },
+    {
+      "id": 4,
+      "title": "Risk",
+      "timeOfPlay": "120-240 min",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "difficulty": "Hard",
+      "location": "Living Room",
+      "positionOnShelf": "Bottom Shelf"
+    },
+    {
+      "id": 5,
+      "title": "Scrabble",
+      "timeOfPlay": "30-90 min",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "difficulty": "Medium",
+      "location": "Living Room",
+      "positionOnShelf": "Top Shelf"
+    },
+    {
+      "id": 6,
+      "title": "Pandemic",
+      "timeOfPlay": "45-60 min",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "difficulty": "Medium",
+      "location": "Game Room",
+      "positionOnShelf": "Middle Shelf"
+    },
+    {
+      "id": 7,
+      "title": "Ticket to Ride",
+      "timeOfPlay": "30-60 min",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "difficulty": "Easy",
+      "location": "Living Room",
+      "positionOnShelf": "Middle Shelf"
+    },
+    {
+      "id": 8,
+      "title": "Chess",
+      "timeOfPlay": "30-120 min",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "difficulty": "Hard",
+      "location": "Study Room",
+      "positionOnShelf": "Top Shelf"
+    },
+    {
+      "id": 9,
+      "title": "The Game of Life",
+      "timeOfPlay": "60-120 min",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "difficulty": "Easy",
+      "location": "Living Room",
+      "positionOnShelf": "Bottom Shelf"
+    },
+    {
+      "id": 10,
+      "title": "Clue",
+      "timeOfPlay": "45-60 min",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "difficulty": "Easy",
+      "location": "Game Room",
+      "positionOnShelf": "Top Shelf"
+    }
+  ]
+  

@@ -1,8 +1,8 @@
 /* ---------- Root Variables ---------- */
 :root {
-  --green: rgb(38, 76, 89);
-  --dark-green: rgb(9, 47, 59);
-  --light-green: rgb(172, 198, 201);
+  --red:#BF161D; /* Changed from --green */
+  --dark-red: rgb(139, 20, 20); /* Changed from --dark-green */
+  --light-red: rgb(252, 199, 199); /* Changed from --light-green */
   --light-grey: #f1f1f4;
   --text-color-danger: rgb(152, 58, 58);
   --text-color-dark: #333;
@@ -24,7 +24,7 @@ html {
 
 body,
 html {
-  background-color: var(--light-green);
+  background-color: var(--light-red); /* Changed */
   color: var(--text-color-dark);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -52,13 +52,13 @@ h3 {
 }
 
 a {
-  color: var(--green);
+  color: var(--red); /* Changed */
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover {
-  color: var(--dark-green);
+  color: var(--dark-red); /* Changed */
 }
 
 /* ---------- Form, input and button Styling ---------- */
@@ -77,19 +77,20 @@ select {
   line-height: 1.5;
   margin: 0;
 }
+
 button {
   color: var(--white);
   font-weight: 500;
   cursor: pointer;
   padding: 1em 2em;
-  background-color: var(--green);
+  background-color: var(--red); /* Changed */
   transition: 0.5s;
   width: 100%;
 }
 
 button:hover {
-  background-color: var(--light-green);
-  color: var(--green);
+  background-color: var(--light-red); /* Changed */
+  color: var(--red); /* Changed */
 }
 
 textarea:hover,
@@ -157,7 +158,7 @@ form {
 
 /* ---------- Navigation Styling ---------- */
 nav {
-  background-color: var(--green);
+  background-color: var(--red); /* Changed */
   display: grid;
   left: 0;
   position: fixed;
@@ -178,7 +179,7 @@ nav a {
   text-decoration: none;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 2px solid var(--green); /* Use the --green variable */
+  border: 2px solid var(--red); /* Changed */
   font-weight: 500;
   font-size: 1.2em;
   border-radius: 8px;
@@ -187,14 +188,14 @@ nav a {
 
 /* Change the color of links on hover */
 nav a:hover {
-  background-color: var(--light-green);
-  color: var(--green);
+  background-color: var(--light-red); /* Changed */
+  color: var(--red); /* Changed */
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-  background-color: var(--light-green);
-  color: var(--green);
+  background-color: var(--light-red); /* Changed */
+  color: var(--red); /* Changed */
 }
 
 /* ---------- Page Styling ---------- */
@@ -281,7 +282,7 @@ nav a.active {
 }
 
 .user-card:hover {
-  box-shadow: 0 8px 16px 0 var(--green);
+  box-shadow: 0 8px 16px 0 var(--red); /* Changed */
 }
 
 .user-card img {
@@ -347,6 +348,3 @@ nav a.active {
 
 .error-message {
   color: var(--text-color-danger);
-  margin-top: 10px;
-  grid-column: 2;
-}
